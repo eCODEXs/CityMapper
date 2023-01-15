@@ -146,6 +146,6 @@ function startTime() {
         mOrari.style.display = 'none'
         oOrari.style.display = 'flex'
         
-    }, 5000);
+    }, 3000);
  }
 
