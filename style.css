@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13,110,253;
+    --bs-secondary-rgb: 108,117,125;
+    --bs-success-rgb: 25,135,84;
+    --bs-info-rgb: 13,202,240;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 33,37,41;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 0,0,0;
+    --bs-body-color-rgb: 33,37,41;
+    --bs-body-bg-rgb: 255,255,255;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+    }
+    
+
+    body{
+        font-family: proxima, BloggerSans, sans-serif;
+        font-size: 16px;
+        font-weight: var(--bs-body-font-weight);
+        line-height: 1.42857;
+        color: var(--bs-body-color);
+        text-align: var(--bs-body-text-align);
+        background-color: var(--bs-body-bg);
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #37ab2e;
+        color: white;
+			}
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            background-color: white;
+            color: #37ab2e;
+            gap: 5px;
+            padding: 5px;
+            
+        }
+
+        nav h1{
+           font-size: 1.6em;
+        }
+
+        main{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+
+         }
+
+         .container{
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            height: 100%;
+            gap: 10px;
+            margin-top: 55px;
+            padding-left: 10px;
+            padding-right: 10px;
+         }
+        
+
+         .citta{
+            display: flex;
+            width: 100%;
+            height:120px;
+            background-color: #2e9127;
+            border-radius: 10px;
+            align-items: center;
+            padding: 5px;
+         }
+
+         .citta img{
+            display: flex;
+            width: 150px;
+            position: relative;
+            margin-bottom: 100px;
+            object-fit: contain;
+         }
+
+         .bus-info{
+            display: flex;
+            width: 100%;
+            gap: 10px;
+            align-items: center;
+            margin-top: 10px;
+         }
+
+         .bus-info h3{
+            display: flex;
+            width: 100%;
+            gap: 10px;
+            align-items: center;
+            font-weight: 700;
+         }
+
+         .partenza{
+            width: 100%;
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+            height: 100%;
+            margin-top: 10px;
+
+         }
+
+         .part-1{
+            background-color: #2e9127;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            height: 40px;
+            padding: 10px;
+            color: white;
+            display: flex;
+            align-items: center;
+         }
+         
+         .arrivo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+         }
+
+         .numero-bus{
+            display: flex;
+            flex-direction: column;
+         }
+        .numero-bus h5{
+            font-size: 1.8em;
+         }
+
+         .numero-bus p{
+            font-size: 1em;
+            color: gray;
+         }
+
+         .arrivo-bus{
+            display: flex;
+            align-items: center;
+         }
+
+         .arrivo-bus svg{
+            position: relative;
+            margin-bottom: 30px;
+         }
+
+         .arrivo-bus h4{
+            font-size: 2.1em;
+            margin-right: 5px;
+         }
+
+         .arrivo-bus p{
+            position: relative;
+            margin-top: 10px;
+          }
+
+         .logo{
+            display: flex;
+            align-items: center;
+          }
+
+          .data-oggi p{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: 600;
+          }
+
+          .partenze-prossime{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            border-radius: 10px;
+            margin-top: 10px;
+            color: black;
+          }
+
+          .orario{
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid silver;
+          }
+
+          .op{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+          }
+
+          .op h4{
+            font-size: 1.6em;
+          }
+
+          .op p{
+            font-size: 1em;
+          }
+
+          .mostra-orari{
+            width: 100%;
+            height: 60px;
+            background-color: #2e9127;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 1.6em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: 200ms;
+          }
+
+          .mostra-orari p{
+           display: flex;
+           align-items: center;
+           gap: 5px;
+          }
+          .mostra-orari p svg{
+            height: 25px;
+            width: 25px;
+            
+          }
+
+
+          .mostra-orari:hover{
+            background-color: #277622;
+           }

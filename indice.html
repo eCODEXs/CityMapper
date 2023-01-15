@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citymapper - Milano</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://citymapper.com/static/favicon.ico?v=2" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        
+        <div class="logo">
+            <img src="https://citymapper.com/static-img?src=nearby-header-it-milan-tram-multicolor@2x.png,nearby-header-generic-tram@2x.png,nearby-header-generic-rail-green@2x.png" alt="" srcset="">
+        <h1>Citymapper</h1>
+        </div>
+        <div class="data-oggi">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+              </svg><span id="ore">16:45:00</span> </p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+              </svg><span id="mese">15/01/2023</span></p>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="citta">
+                <img src="https://citymapper.com/static/data/resources/switch-region-dude-highfashion@2x.png" >
+                <div class="title">
+                    <h2>Milano</h2>
+                    <p>Via Pareto, 36</p>
+                </div>
+            </div>
+
+            <div class="autoBus">
+                <div class="bus-info">
+                    <img src="https://citymapper.com/static/data/resources/list-it-milan-ATMBus@2x.png">
+                    <h3>Bus 40 Bonola M1 - Niguarda (Parco Nordd)</h3>
+                </div>
+            </div>
+
+            <div class="partenza">
+                <div class="part-1">
+                    <h4>PARTENZE</h4>
+                </div>
+                <div class="arrivo">
+                    <div class="numero-bus">
+                        <h5>40</h5>
+                        <p>Bonola M1</p>
+                    </div>
+                    <div class="arrivo-bus">
+                        <svg width="1em" height="1em" viewBox="0 0 20 20"><g fill="#FBD42A"><path d="M15.9840916,8.88301685 C17.0973425,8.88301685 18,9.78539134 18,10.8988915 C18,12.0123916 17.0973425,12.9147661 15.9840916,12.9147661 C14.2915753,12.9147661 12.9149488,14.2916374 12.9149488,15.9838575 C12.9149488,17.0970897 12.0122913,18 10.8987725,18 C9.78552171,18 8.88286418,17.0970897 8.88286418,15.9838575 C8.88286418,12.0683881 12.0685567,8.88301685 15.9840916,8.88301685" style="animation: 5000ms ease-in-out 1300ms infinite normal none running animation_197bdt9;"></path><path d="M10.5402817,3.0998359 C12.2654855,2.37000569 14.0970578,2 15.9840916,2 C17.0973425,2 18,2.90264242 18,4.01614254 C18,5.12937473 17.0973425,6.03201715 15.9840916,6.03201715 C13.3256862,6.03201715 10.8264313,7.0672829 8.94689954,8.94678321 C7.06709982,10.8265515 6.03181674,13.3254965 6.03181674,15.9838575 C6.03181674,17.0970897 5.12942713,18 4.01590837,18 C2.90265753,18 2,17.0970897 2,15.9838575 C2,14.0971231 2.37001189,12.2653136 3.09985431,10.5401387 C3.80424335,8.87471114 4.81219753,7.37941659 6.0958521,6.09578352 C7.37950667,4.81215044 8.87482626,3.80421314 10.5402817,3.0998359 Z" style="animation: 5000ms ease-in-out 1400ms infinite normal none running animation_197bdt9;"></path></g></svg>
+                        <h4 id="arrivo">5</h4>
+                        <p>min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mostra-orari">
+                <p id="pOrari">Mostra Orari <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                  </svg></p>
+                  <img src="./img/67-clock-solid.gif" width="45px" style="display: none;" id="gifImg"> 
+            </div>
+            <div class="partenze-prossime" style="display: none;">
+                <div class="part-1">
+                    <h4>Orari</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
