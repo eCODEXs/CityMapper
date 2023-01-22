@@ -35,7 +35,7 @@ function startTime() {
 
 
   let url = 'https://3br5ycopah.execute-api.us-east-1.amazonaws.com/live/API/departures/scheduled/MilanStop_ViaPareto_E'
-  fetch(proxy+url, {method: 'GET', mode:"cors" })
+  fetch(url, {method: 'GET', mode:"cors" })
   .then(function (r) {
   
       r.json().then((data) => {
