@@ -34,8 +34,7 @@ function startTime() {
   
 
 
-  let proxy = 'https://api.allorigins.win/raw?url='
-  let url = 'https://it-milan-api.citymapper.com/1/schedules/?id=MilanStop_ViaPareto_E&region_id=it-milan'
+  let url = 'https://3br5ycopah.execute-api.us-east-1.amazonaws.com/live/API/departures/scheduled/MilanStop_ViaPareto_E'
   fetch(proxy+url, {method: 'GET', mode:"cors" })
   .then(function (r) {
   
